@@ -3,7 +3,9 @@
 // Object.entries();
 
 const user = {
-    name: 'Trevor',
-    age: 15
+    'Tom': 17,
+    'John Doe': 19,
+    'Bob': 18
 }
-console.log(Object.values(user));
+const getAdults = userObj => Object.entries(userObj).filter(user => user[1] >= 18).map(user => user[0]);
+console.log(getAdults(user));

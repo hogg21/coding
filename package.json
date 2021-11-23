@@ -1,0 +1,30 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogg21/coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hogg21/coding/issues"
+  },
+  "homepage": "https://github.com/hogg21/coding#readme",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "description": ""
+}
